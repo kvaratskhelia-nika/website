@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    background-color: black;
+    width: 100%;
+    height: 5rem;
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1em;
+    border: 1px solid red;
+    padding: 0.4em;
+}
+
+.nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.nav .nav__buttons button{
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.conteiner{
+    border: 1px solid black;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+}
+
+.leftside{
+    display: inline-block;
+    border: 2px solid black;
+    height: 500px;
+    width: 75%;
+}
+.rightside{
+    display: inline-block;
+    border: 2px solid black;
+    height: 500px;
+    width: 24%;
+}
