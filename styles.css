@@ -42,20 +42,20 @@
 
 .conteiner{
     border: 1px solid black;
-    margin-left: 10%;
-    width: 80%;
+    width: 100%;
     align-items: center;
 }
 
 .leftside{
     display: inline-block;
     border: 2px solid black;
+    margin-left: 10%;
     height: 500px;
-    width: 75%;
+    width: 65%;
 }
 .rightside{
     display: inline-block;
     border: 2px solid black;
     height: 500px;
-    width: 24%;
+    width: 15%;
 }
